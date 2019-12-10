@@ -2,15 +2,32 @@
     property: value;
  } */
 
+
+*{
+    text-align: center
+} 
+
 h2{
+    
+color:#2D882D;
+text-align: center;
+border: 5px solid rgb(108, 109, 105);
+cursor: pointer;
+}
+
+p{
     color: red;
 }
 
 p{
-    color: blue;
+    color: rgb(18, 16, 20);
+}
+li{
+    list-style: none;
+    display: inline-block;
 }
 
-p{
-    color: white;
-    background-color: black;
+body{
+    background-image: url(ansras.JPG);
+    background-size: cover;
 }
